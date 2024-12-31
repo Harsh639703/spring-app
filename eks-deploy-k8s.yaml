@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: docker-app-img
-  name: springboot-app-deployment
+  name: docker-app-img
 spec:
   replicas: 4
   selector:
